@@ -1,0 +1,84 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(243, 68, 155);
+}
+
+input {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.input-group div {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.small-input {
+  width: 100px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(232, 159, 195);
+}
+
+h1, h2 {
+  margin-bottom: 50px;
+  font-family: cursive;
+  font-size: 50px;
+  color: hotpink;
+  border-bottom: solid 3px hotpink;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.result p {
+  margin: 0;
+}
